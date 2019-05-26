@@ -5,7 +5,7 @@ script:
 - cmake -H. -B_build -DBUILD_TESTS=ON
 - cmake --build _build
 - cmake --build _build --target test -- AGRS=--verbose
-- make && make check
+#- make && make check
 #- ./configure --enable-gcov && make && make check
 addons:
   apt:
